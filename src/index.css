@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@400;500;700&family=Audiowide&display=swap');
 @import 'tailwindcss';
+
+/* Theme tokens */
+@theme {
+  /* Brand gradient (used on body or containers) */
+  --background-image-gradient-main: linear-gradient(126.46deg, #000000 2.06%, #2f2ab7 149.69%);
+
+  /* Colors */
+  --color-text: #ffffff;
+  --color-border: #8a4fff;
+
+  --color-nav-blue: #3db4ff;
+  --color-nav-pink: #ff3f81;
+  --color-nav-green: #a4ff4f;
+  --color-nav-orange: #ff6b2c;
+
+  /* Fonts */
+  --font-body: 'Tomorrow', sans-serif;
+  --font-heading: 'Audiowide', cursive;
+}

@@ -9,11 +9,11 @@ import Sponsors from './components/Sponsors';
 
 function App() {
   return (
-    <>
+    <div className="bg-gradient-main">
       <header>
         <Navbar />
       </header>
-      <main>
+      <main className="flex-1">
         <Hero />
         <About />
         <FAQ />
@@ -23,7 +23,7 @@ function App() {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 }
 
