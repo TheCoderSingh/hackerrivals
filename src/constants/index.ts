@@ -1,11 +1,3 @@
-export const NAV_LINKS = [
-  { label: 'Home', href: '#' },
-  { label: 'Schedule', href: '#schedule' },
-  { label: 'Prizes', href: '#prizes' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Sponsors', href: '#sponsors' },
-];
-
 export const FAQS = [
   {
     question: 'Question 1',

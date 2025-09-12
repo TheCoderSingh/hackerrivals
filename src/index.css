@@ -19,3 +19,8 @@
   --font-body: 'Tomorrow', sans-serif;
   --font-heading: 'Audiowide', cursive;
 }
+
+body {
+  color: var(--color-text);
+  font-family: var(--font-body);
+}
