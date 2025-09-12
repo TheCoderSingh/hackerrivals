@@ -5,14 +5,6 @@ import eslintPlugin from '@nabla/vite-plugin-eslint';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    tailwindcss(),
-    eslint({
-      emitWarning: true, // emits to the console if there is a warning
-      emitError: true, // emits to the console if there is an error
-      failOnError: false, // hides the stack trace
-    }),
-  ],
+  plugins: [react(), tailwindcss(), eslintPlugin({})],
   base: '/hackerrivals/',
 });
