@@ -1,6 +1,7 @@
 import { HERO } from '../../constants/hero';
 import downArrows from '../../assets/downArrows.png';
 import Block from '../Block';
+import './Hero.css';
 
 const Hero = () => {
   const animations = ['animate-float-1', 'animate-float-2', 'animate-float-3', 'animate-float-4'];
@@ -67,6 +68,15 @@ const Hero = () => {
         <div className="absolute bottom-10 animate-bounce">
           <img src={downArrows} alt="Scroll Down" width="100px" />
         </div>
+      </div>
+
+      <div className="effects-container relative w-full overflow-hidden">
+        <div className="stars"></div>
+        <div className="shooting-star"></div>
+        <div className="shooting-star"></div>
+        <div className="shooting-star"></div>
+        <div className="shooting-star"></div>
+        <div className="shooting-star"></div>
       </div>
     </section>
   );

@@ -15,6 +15,7 @@ function App() {
         <header>
           <Navbar />
         </header>
+
         <main className="flex-1">
           <Hero />
           <About />
