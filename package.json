@@ -32,5 +32,6 @@
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2",
     "vite-plugin-eslint": "^1.8.1"
-  }
+  },
+  "homepage": "https://thecodersingh.github.io/hackerrivals/"
 }

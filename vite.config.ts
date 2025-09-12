@@ -14,4 +14,5 @@ export default defineConfig({
       failOnError: false, // hides the stack trace
     }),
   ],
+  base: '/hackerrivals/',
 });
