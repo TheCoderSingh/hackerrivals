@@ -3,7 +3,7 @@ export const NAVBAR = {
     { label: 'About', href: '#about' },
     { label: 'Schedule', href: '#schedule' },
     { label: 'Event', href: '#event' },
-    { label: 'Tickets', href: '#volunteer' },
+    { label: 'Tickets', href: '#tickets' },
     { label: 'Sponsor', href: '#sponsor' },
   ],
 };
