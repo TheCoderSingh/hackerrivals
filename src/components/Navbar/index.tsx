@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop */}
-      <div className="hidden md:flex justify-between items-center p-4 fixed w-full bg-gradient-main ">
+      <div className="hidden md:flex justify-between items-center p-4 w-full bg-gradient-main">
         <div>
           <a href="/">Logo</a>
         </div>
